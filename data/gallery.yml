@@ -1,0 +1,4 @@
+enable  : true
+galleryImages :
+  - image : images/projects/torchdrug.png
+  - image : images/projects/project-thumb-two.jpg
