@@ -20,7 +20,7 @@
   </div>
 </section>
 
-<section class="site-project" id="project">
+<!-- <section class="site-project" id="project">
   <div class="container">
     <div class="row">
       {{ range (.Paginator 4).Pages }}
@@ -30,7 +30,7 @@
             <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
           </div>
           <div class="site-project-item-content">
-            <!-- <span>{{ delimit .Params.category ", " }}</span> -->
+            # <span>{{ delimit .Params.category ", " }}</span>
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
           </div>
         </div>
@@ -43,7 +43,11 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
+{{ partial "tech.html" . }}
+
+{{ partial "publication.html" . }}
 
 {{ partial "call-to-action.html" . }}
 

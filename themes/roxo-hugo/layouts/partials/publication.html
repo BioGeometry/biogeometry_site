@@ -1,6 +1,6 @@
-{{ with .Site.Data.tech }}
+{{ with .Site.Data.publication }}
   {{ if .enable }}
-  <section class="site-testimonial">
+  <section class="site-publication">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -13,23 +13,20 @@
             </p>
           </div>
         </div>
-        <div class="col-12 site-project-summary">
-          <img src="{{ "images/tech/tech.svg" | absURL }}" alt="tech-summary">
-        </div>
         {{ range .tech_item }}
-        <div class="col-lg-6 col-md-10 mx-auto">
-          <div class="site-testimonial-item">
-            <div class="site-testimonial-item-header">
+        <div class="col-lg-10 col-md-10 mx-auto">
+          <div class="site-publication-item">
+            <div class="site-publication-item-header">
               <div class="thumb">
                 <img src="{{ .thumb | absURL }}" alt="user-thumb-one">
               </div>
               <div class="person">
-                <h5>{{ .name }}</h5>
-                <!-- <p>{{ .company_position }}</p> -->
+                <h5><a href="{{ .permalink }}">{{ .name }}</a></h5>
+                <!-- <p>{{ .authors }}</p> -->
               </div>
             </div>
-            <p class="site-testimonial-item-body">
-              {{ .quote }}
+            <p class="site-publication-item-body">
+              {{ .tldr }}
             </p>
           </div>
         </div>

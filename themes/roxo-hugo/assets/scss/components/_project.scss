@@ -1,6 +1,15 @@
 .site-project{
   padding: 120px 0;
   overflow: hidden;
+  &-summary{
+    img {
+      width: 80%;
+      padding-bottom: 120px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
   &-item{
     position: relative;
     margin-bottom: 30px;
@@ -98,7 +107,7 @@
   }
   &-header{
     padding: 170px 0 100px;
-    background: $background-color-blue;
+    background: $white;  // $blackground-color-blue
     @include tablet{
       padding: 120px 0 80px;
     }

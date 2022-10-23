@@ -1,0 +1,28 @@
+enable  : true
+title   : "PUBLICATIONS"
+subtitle: ""
+tech_item :
+  - thumb : "images/tech/torchdrug.svg"
+    name  : "TorchDrug: A Powerful and Flexible Machine Learning Platform for Drug Discovery"
+    tldr  : > 
+            Ready-to-use platfrom for fast development of drug discovery models.
+  
+  - thumb : "images/tech/torchprotein.svg"
+    name  : "TorchProtein: Protein machine learning accessible to everyone"
+    tldr  : > 
+            machine learning library for protein science, built on top of TorchDrug.
+
+  - thumb : "images/tech/geodiff2.png"
+    name  : "GeoDiff: A Geometric Diffusion Model for Molecular Conformation Generation "
+    tldr  : > 
+            Geometric probabilistic models; Markov chains; SE(3)-equivariance; denoising diffusion.
+
+  - thumb : "images/tech/CGCF.gif"
+    name  : "Learning Gradient Fields for Molecular Conformation Generation"
+    tldr  : > 
+            Molecular 3D geometry generation; denoising diffusion; SE(3)-equivariance. 
+
+  - thumb : "images/tech/g2g.jpg"
+    name  : "A Graph to Graphs Framework for Retrosynthesis Prediction "
+    tldr  : > 
+            Retrosynthesis via graph translation; inspired by the disconnection approach in Organic Synthesis.

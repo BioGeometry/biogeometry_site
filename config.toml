@@ -67,17 +67,18 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/1IGT.png"
-    heading               = "We <span>Invent</span> Proteins"
-    tagline               = "BioGeometry"
+    heading               = "We <span>INVENT</span> Proteins"
+    tagline               = "We are BioGeometry"
     primary_button        = "Our Technology"
     primary_button_url    = "tech"
     secondary_button      = "Contact Us"
     secondary_button_url  = "contact"
 
-  [params.tech]
+  [params.news]
     enable    = true
-    title     = "Core technologies"
-    subtitle  = "Next generation protein therapeutics powered by AI."
+    title     = "News"
+    subtitle  = ""
+    more      = "MORE NEWS"
 
   [params.call_to_action]
     enable              = true
@@ -102,11 +103,11 @@ summarylength = 25
           name = "About Company"
           url  = "about"
         [[params.footer.sitemap.link]]
-          name = "Projects"
+          name = "Technology"
           url  = "tech"
         [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
+          name = "News"
+          url  = "news"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"

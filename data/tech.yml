@@ -1,0 +1,28 @@
+enable  : true
+title   : "CORE TECHNOLOGIES"
+subtitle: "Next generation protein therapeutics powered by AI."
+tech_item :
+  - thumb : "images/tech/geometric deep learning.png"
+    name  : "Geometric Deep Learning"
+    quote : > 
+            Cutting-edge deep learning technique that models proteins and other molecules in 3D space with the necessary symmetry in "mind". We develop powerful GDL methods to dive deep into protein structures.
+
+  - thumb : "images/tech/generative model.png"
+    name  : "Deep Generative Model"
+    quote : > 
+            Expressive approximators for high-dimensional probability distributions. BioGeometry has a repertoire of expressive generative models at hand for evaluating sample quality and generating novel samples.
+
+  - thumb : "images/tech/protein generation.png"
+    name  : "Protein Generation"
+    quote : > 
+            The rational design of novel protein molecules with the desired activity, behavior, or function. Our structure-based design pipeline opens up new possibilities for fast, precise and integrated protein generation.
+
+  - thumb : "images/tech/property optimization.png"
+    name  : "Property Optimization"
+    quote : > 
+            A designed protein needs multiple properties to become practical. Our best-in-class strategy excels at optimizing multiple properties to generate a desired protein or therapeutic antibody.
+
+  - thumb : "images/tech/interaction modeling.png"
+    name  : "Interaction Modeling"
+    quote : > 
+            Modeling the interaction between macromolecules holds the key to functional protein and antibody design. With tools developed at BioGeometry, you will have that key.
